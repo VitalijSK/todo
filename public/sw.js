@@ -19,7 +19,7 @@ self.addEventListener('install', function(event) {
             '/public/app/framework/MainStorage.js',
             '/public/app/framework/autoBind.js',
             '/public/app/model/itemModel.js',
-            '/public/app/model/listModel.js'
+            '/public/app/model/ListModel.js'
            ]);
        })
     );
