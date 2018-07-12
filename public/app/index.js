@@ -2,7 +2,7 @@ import App from '/public/app/components/App.js';
 
 
 if ( 'serviceWorker' in navigator ) {
-    navigator.serviceWorker.register('/sw.js', {scope: './'})
+    navigator.serviceWorker.register('/public/sw.js', {scope: './'})
         .then(res=>{
             console.log(res);
             console.log('sw registred');
