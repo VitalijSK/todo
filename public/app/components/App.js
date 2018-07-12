@@ -2,7 +2,7 @@ import Component from '/public/app/framework/Component.js';
 import Notes from '/public/app/components/Notes.js';
 import Manager from '/public/app/components/Manager.js';
 import Info from '/public/app/components/Info.js';
-import ItemModel from '/public/app/model/ItemModel.js';
+import ItemModel from '/public/app/ItemModel.js';
 import {ADD_NEW, CLOSE_FORM, EDIT} from '/public/app/events.js';
 import ListModel from '/public/app/model/ListModel.js';
 
