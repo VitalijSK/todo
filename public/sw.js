@@ -4,7 +4,7 @@ self.addEventListener('install', function(event) {
        caches.open('public')
        .then(function(cache){
            return cache.addAll([
-            '/public/',
+            '/',
             '/public/index.html',
             '/public/css/style.css',
             '/public/app/index.js',
