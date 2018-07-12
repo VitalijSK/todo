@@ -8,7 +8,7 @@ headers.append('Service-Worker-Allowed', '/');
 console.log(headers.get('Service-Worker-Allowed'));
 
 if ( 'serviceWorker' in navigator ) {
-    navigator.serviceWorker.register('/public/sw.js', {scope: './'})
+    navigator.serviceWorker.register('./sw.js', {scope: './'})
         .then(res=>{
             console.log(res);
             console.log('sw registred');
