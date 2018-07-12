@@ -2,9 +2,9 @@ import Component from '/public/app/framework/Component.js';
 import Notes from '/public/app/components/Notes.js';
 import Manager from '/public/app/components/Manager.js';
 import Info from '/public/app/components/Info.js';
-import ItemModel from '../model/ItemModel.js';
-import {ADD_NEW, CLOSE_FORM, EDIT} from '../events.js';
-import ListModel from '../model/ListModel.js';
+import ItemModel from '/public/app/model/ItemModel.js';
+import {ADD_NEW, CLOSE_FORM, EDIT} from '/public/app/events.js';
+import ListModel from '/public/app/model/ListModel.js';
 
 export default class App extends Component {
 
