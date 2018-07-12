@@ -1,4 +1,4 @@
-import ItemModel from '../model/ItemModel.js';
+import ItemModel from '../model/itemModel.js';
 import statuses from '../statuses.js';
 
 export function autoBind(domElement, model) {
