@@ -1,7 +1,7 @@
 import Component from '../framework/Component.js';
 import {ADD_NEW, EDIT} from '../events.js';
 import ListModel from '../model/ListModel.js';
-import ItemModel from '../model/ItemModel.js';
+import ItemModel from '../model/itemModel.js';
 import {autoBind} from '../framework/autoBind.js';
 import MainStorage from '../framework/MainStorage.js';
 

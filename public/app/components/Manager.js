@@ -1,5 +1,5 @@
 import Component from '../framework/Component.js';
-import ItemModel from '../model/ItemModel.js';
+import ItemModel from '../model/itemModel.js';
 import {CLOSE_FORM} from '../events.js';
 import statuses from '../statuses.js';
 import {autoBind} from '../framework/autoBind.js';
