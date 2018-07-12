@@ -1,5 +1,5 @@
 
-import ItemModel from './ItemModel.js';
+import ItemModel from './itemModel.js';
 import MainStorage from '../framework/MainStorage.js';
 
 export default class ListModel {
